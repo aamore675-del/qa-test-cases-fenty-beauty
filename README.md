@@ -1,19 +1,33 @@
 # Manual Testing – Fenty Beauty Product Page
 
 ## Overview
-This project demonstrates manual QA testing for a Fenty Beauty product page. It includes happy path scenarios, edge case testing, and a sample bug report to showcase structured testing and defect documentation.
+This project demonstrates manual QA testing for a Fenty Beauty product page. It includes positive test scenarios, edge case coverage, and a sample bug report to show structured testing and defect documentation.
 
 ## Scope
 The testing focuses on core product page functionality, including:
-- Page load behavior
+- Product page load behavior
 - Product name and price display
-- Image gallery functionality
+- Product image gallery
 - Shade selection
 - Quantity selection
-- Add-to-cart related behavior
+
+## Positive Test Scenarios
+The project includes validation for:
+- Verify product page loads successfully
+- Verify product name and price display correctly
+- Verify product image gallery loads correctly
+- Verify user can select product shade
+- Verify quantity selector works correctly
+
+## Edge Cases Covered
+The project also includes edge case testing for:
+- Refreshing the page after selecting a shade
+- Increasing quantity to the maximum allowed limit
+- Rapidly switching between shades
+- Attempting to add a product to cart without selecting a shade
 
 ## Contents
-- Happy path test cases
+- Positive test scenarios
 - Edge case scenarios
 - Sample bug report
 - Expected results for key user actions
@@ -27,4 +41,4 @@ The testing focuses on core product page functionality, including:
 - Analytical Thinking
 
 ## Goal
-The goal of this project is to demonstrate the ability to validate key e-commerce product page functionality, identify defects, and document test coverage in a clear and structured way.
+The goal of this project is to demonstrate the ability to validate key e-commerce product page functionality, identify defects, and document testing in a clear and structured way.
